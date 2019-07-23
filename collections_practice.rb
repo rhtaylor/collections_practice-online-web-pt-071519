@@ -3,7 +3,7 @@ def swap_elements_from_to(arr,i,to)
   savd = arr[to]
   arr.delete_at(i)
   arr[to] = sav
-  arr[2] = savd
+  arr[i] = savd
   arr
 end
 def sort_array_asc(arr)
